@@ -78,7 +78,7 @@ ul.addEventListener('click', (e) => {
 
 #### Lets add some DOM UI to our Pokemon app together!
 
-Clone this repo [Pokemon vanilla]()
+Clone this repo [Pokemon vanilla](https://git.generalassemb.ly/WebDev-Connected-Classroom/JS-Pokemon-Vanilla)
 
 
 
