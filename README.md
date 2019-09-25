@@ -96,10 +96,47 @@ ul.addEventListener('click', (e) => {
 
 - By doing it this way we don't have to set an event listener to every single element!
 
-#### Lets add some DOM UI to our Pokemon app together!
+#### Lets play around 
 
-Clone this repo [Pokemon vanilla](https://git.generalassemb.ly/WebDev-Connected-Classroom/JS-Pokemon-Vanilla)
+- What we will do here is do a simple example of adding something from one list "a menu" to another list "an order"
 
+- First Let's add some more html
+
+```html
+<section id="menu">
+  <h4>Menu</h4>
+  <h6>Click the Item to add to menu</h6>
+  <ul>
+    <li>Taco</li>
+    <li>Burrito</li>
+    <li>Sopa</li>
+    <li>Tostada</li>
+  </ul>
+</section>
+
+
+<section id='order'>
+  <h4>Order</h4>
+
+</section>
+```
+
+- and Lets add some css, if you haven't used flexbox before check out this [article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+```css
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#menu, #order {
+  padding: 2em;
+}
+
+#menu {
+  margin-right: 3%;
+}
+```
 
 
 
