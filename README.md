@@ -166,7 +166,7 @@ menu.addEventListener('click', (e) => {
 
 1.  When you click on an item, highlight them by changing it's color
 2.  Create an input that when you type into it and when you press enter add it to the menu list
-
+3.  Make it so when you click on the menu that it changes to a random color each time
 
 
 
