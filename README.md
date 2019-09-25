@@ -1,5 +1,19 @@
 # Js-Dom-Events
 
+![GA logo!!!](https://camo.githubusercontent.com/6ce15b81c1f06d716d753a61f5db22375fa684da/68747470733a2f2f67612d646173682e73332e616d617a6f6e6177732e636f6d2f70726f64756374696f6e2f6173736574732f6c6f676f2d39663838616536633963333837313639306533333238306663663535376633332e706e67)
+
+---
+## Learning Objectives
+<br>
+
+<p>Students will be able to:</p>
+
+- Describe what a DOM event is
+- Be able to write a DOM Event
+- Understand a callback
+
+---
+
 #### What is a DOM EVENT
 
 - A DOM event is some user interaction on a page that our document is listening for.  For example, we could be listening for a click, a double click, or when someone presses a certain key.  When one of these events are heard, we can then call a function to initiate some reaction to the event that will perform some operation on the page. 
@@ -15,6 +29,12 @@
 *event Handler* - event lister connects event to handler, event handler is what actually happens when user does the event
 
 *note: events are strings*
+
+#### Callback
+
+callback - a callback function is a function to be executed after another has finished.
+
+- So in our case after someone has triggered the event listener function the callback will then be called to perform whatever logic we want to happen when a user clicks on an event.
 
 ##### How do I know what the events are? 
 
