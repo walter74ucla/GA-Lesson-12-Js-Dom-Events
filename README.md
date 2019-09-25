@@ -138,6 +138,34 @@ body {
 }
 ```
 
+***Goal***
+
+- Lets try and move the item's on the menu over to the order
+
+```js
+const menu = document.getElementById('menu');
+
+menu.addEventListener('click', (e) => {
+  console.log(e.target.tagName);
+
+  // first check to make sure you are clicking on an LI
+  if(e.target.tagName === "LI"){
+    // remove the element from the DOM
+    e.target.remove()
+    // grab the menu section on the dom
+    const menu = document.getElementById('order');
+    // append the the target element to the dom
+    menu.appendChild(e.target)
+
+  }
+});
+```
+
+
+### Other ideas
+
+1.  When you click on an item, highlight them by changing it's color
+2.  Create an input that when you type into it and when you press enter add it to the menu list
 
 
 
